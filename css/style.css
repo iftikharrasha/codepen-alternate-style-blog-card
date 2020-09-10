@@ -9,6 +9,10 @@ body{
 .container{
   background-color: #D34E24;
   width: 100%;
+<<<<<<< HEAD:css/style.css
+=======
+  height: 750px;
+>>>>>>> 4dee96c6026760fc5aa89407ab346b0ab47a5a6b:style.css
 }
 
 .card{
