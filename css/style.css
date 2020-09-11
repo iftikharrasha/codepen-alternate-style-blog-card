@@ -6,23 +6,14 @@ body{
   background-color: #D34E24;
 }
 
-.container{
-  background-color: #D34E24;
-  width: 100%;
-<<<<<<< HEAD:css/style.css
-=======
-  height: 750px;
->>>>>>> 4dee96c6026760fc5aa89407ab346b0ab47a5a6b:style.css
-}
-
-.card{
+.item{
   position: relative;
-  top: 25px;
+  top: 100px;
   left: 30%;
   width: 500px;
 }
 
-.card img {
+.item img {
   position: absolute;
   left: 24px;
   width: 70%;
@@ -31,7 +22,7 @@ body{
   border-radius: 30px;
 }
 
-.card_in{
+.item_in{
   position: absolute;
   top: 40px;
   background-color: #494A4E;
@@ -39,9 +30,8 @@ body{
   border-radius: 50px;
 }
 
-.card_right{
+.item_right{
   position: relative;
-  background-color: #494A4E;
   width: 20%;
   height: 240px;
   border-top-right-radius: 50px;
@@ -57,6 +47,7 @@ body{
 }
 
 .title{
+  margin-top: 10px;
   margin-left: 15%;
   margin-bottom: 0;
 }
@@ -70,25 +61,23 @@ body{
   margin-bottom: 20px;
 }
 
-.card_below{
+.item_below{
   position: relative;
   overflow: hidden;
-  background-color: #494A4E;
-  width: 500px;
-  border-radius: 0 0 50px 50px;
+  width: 100%;
 }
 
-.card_below_left{
+.item_below_left{
   width: 80%;
   float: left;
 }
 
-.card_below_right{
+.item_below_right{
   width: 20%;
   float: right;
 }
 
-.card_below_right a {
+.item_below_right a {
     text-decoration: none !important;
 }
 
